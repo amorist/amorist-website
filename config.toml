@@ -66,16 +66,12 @@ googleAnalytics = "UA-76504285-9"
     url  = "categories"
 [[menu.main]]
     name = "Tag"
-    weight = 2
+    weight = 3
     url  = "tags"
 [[menu.main]]
     name = "Project"
-    weight = 3
-    url = "project"
-[[menu.main]]
-    name = "Love"
     weight = 4
-    url = "love"
+    url = "project"
 [[menu.main]]
     name = "About"
     weight = 5
