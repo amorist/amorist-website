@@ -9,9 +9,12 @@ install:
 script:
   - hugo # This commands builds your website on travis
 
+before-deploy:
+  - git config --local user.name "amorist"
+  - git config --local user.email "amor90s.zhang@gmail.com"
+
 deploy:
   local_dir: public # Default static site output dir for Hugo
-  target_branch: gh-pages # GitHub pages branch to deploy to (in other cases it can be gh-pages)
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN # This is the authentication which you will setup in the next step in travis-ci dashboard
