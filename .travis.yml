@@ -9,7 +9,7 @@ install:
 script:
   - hugo # This commands builds your website on travis
 
-before-deploy:
+before_deploy:
   - git config --local user.name "amorist"
   - git config --local user.email "amor90s.zhang@gmail.com"
 
