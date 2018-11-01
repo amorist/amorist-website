@@ -12,6 +12,8 @@ pygmentscodefencesguesssyntax = true
 
 disqusShortname = "amorist-io"
 
+googleAnalytics = "UA-76504285-9"
+
 [params]
     author = "amor zhang"
     info = "a cute boy"
