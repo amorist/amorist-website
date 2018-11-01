@@ -61,14 +61,22 @@ googleAnalytics = "UA-76504285-9"
     weight = 1
     url  = "posts"
 [[menu.main]]
-    name = "Project"
+    name = "Category"
     weight = 2
+    url  = "categories"
+[[menu.main]]
+    name = "Tag"
+    weight = 2
+    url  = "tags"
+[[menu.main]]
+    name = "Project"
+    weight = 3
     url = "project"
 [[menu.main]]
     name = "Love"
-    weight = 3
+    weight = 4
     url = "love"
 [[menu.main]]
     name = "About"
-    weight = 4
+    weight = 5
     url = "about"
