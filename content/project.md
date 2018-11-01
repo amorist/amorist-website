@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2018-11-01T15:28:59+08:00
-title = "my project"
+title = "My Project"
 slug = "" 
 thumbnail = "<no value>"
 description = ""
