@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2018-11-02T11:17:16+08:00
-title = "Alienware ALW15C-2738二手 95新 因用不惯windows系统做开发，决定出售"
+title = "Alienware ALW15C-2738二手 95新"
 slug = "" 
 tags = ["Alienware", "二手"]
 categories = ["电子产品", "二手出售"]
