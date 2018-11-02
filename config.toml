@@ -10,7 +10,7 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "amorist-io"
+disqusShortname = ""
 
 googleAnalytics = "UA-76504285-9"
 
@@ -38,6 +38,14 @@ googleAnalytics = "UA-76504285-9"
     snsShare = false # new add
 
     # thumbnail = "images/tn.png" # default sns thumbnail
+[params.gitalk]
+    enable = true
+    clientID = "ba080f7cb1a46e7901fe"
+    clientSecret = "990d1b1576febce451a89414d30a15e555f89621"
+    repo = "amorist"
+    owner =  "amorist"
+    admin = ["amorist"]
+    distractionFreeMode = false 
 
 [[params.social]]
     name = "Github"
