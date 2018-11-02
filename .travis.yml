@@ -18,7 +18,5 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN # This is the authentication which you will setup in the next step in travis-ci dashboard
-  email: amor90s.zhang@gamil.com
-  name: "amorist"
   on:
     branch: master
