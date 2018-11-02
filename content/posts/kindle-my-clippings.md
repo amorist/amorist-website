@@ -7,6 +7,7 @@ tags = ["kindle", "python"]
 categories = ["教程"]
 thumbnail = "<no value>"
 description = ""
+comments = true
 +++
 
 

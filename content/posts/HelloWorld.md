@@ -7,6 +7,7 @@ tags = ["Hello World"]
 categories = ["Hello World"]
 thumbnail = "<no value>"
 description = ""
+comments = true
 +++
 
 

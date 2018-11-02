@@ -5,4 +5,5 @@ title = ""
 slug = "" 
 thumbnail = "{{ .Site.Params.thumbnail }}"
 description = ""
+comments = false
 +++

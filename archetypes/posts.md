@@ -7,4 +7,5 @@ tags = []
 categories = []
 thumbnail = "{{ .Site.Params.thumbnail }}"
 description = ""
+comments = true 
 +++

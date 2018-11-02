@@ -7,6 +7,7 @@ tags = ["Alienware", "二手"]
 categories = ["电子产品", "二手出售"]
 thumbnail = "<no value>"
 description = ""
+comments = true
 +++
 
 ## 型号：
