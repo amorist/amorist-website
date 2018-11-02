@@ -44,7 +44,7 @@ googleAnalytics = "UA-76504285-9"
     clientSecret = "990d1b1576febce451a89414d30a15e555f89621"
     repo = "amorist"
     owner =  "amorist"
-    admin = ["amorist"]
+    admin = "amorist"
     distractionFreeMode = false 
 
 [[params.social]]
