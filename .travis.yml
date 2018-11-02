@@ -2,22 +2,20 @@ language: go
 addons:
   ssh_known_hosts: 47.75.56.14
 go:
-  - master # This uses automatically the latest version of go
-
+- master
 branches:
   only:
   - master
-
 install:
-  - go get github.com/spf13/hugo # This provides the latest version of Hugo to Travis CI
-
+- go get github.com/spf13/hugo
 script:
-  - hugo # This commands builds your website on travis
-
+- hugo
 before_install:
+- openssl aes-256-cbc -K $encrypted_24638d97cf1a_key -iv $encrypted_24638d97cf1a_iv
+  -in deploy_rsa.enc -out ~\/.ssh/deploy_rsa -d
 - openssl aes-256-cbc -K $encrypted_24638d97cf1a_key -iv $encrypted_24638d97cf1a_iv
   -in id_rsa.enc -out ~\/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
-
 after_success:
-  - ssh root@47.75.56.14 StrictHostKeyChecking=no 'cd /www/amorist/ && git checkout gh-pages && git pull'
+- ssh root@47.75.56.14 StrictHostKeyChecking=no 'cd /www/amorist/ && git checkout
+  gh-pages && git pull'
