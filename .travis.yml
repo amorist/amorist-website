@@ -3,22 +3,22 @@ language: go
 go:
   - master # This uses automatically the latest version of go
 
+branches:
+  only:
+  - master
+
 install:
   - go get github.com/spf13/hugo # This provides the latest version of Hugo to Travis CI
 
 script:
   - hugo # This commands builds your website on travis
 
-before_deploy:
-  - git config --local user.name "amorist"
-  - git config --local user.email "amor90s.zhang@gmail.com"
-
 deploy:
   local_dir: public # Default static site output dir for Hugo
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN # This is the authentication which you will setup in the next step in travis-ci dashboard
-  email: amor90s.zhang@qq.com
-  name: "Your username"
+  email: amor90s.zhang@gamil.com
+  name: "amorist"
   on:
     branch: master
