@@ -1,3 +1,3 @@
 #!/bin/sh
 
-hugo && rsync -avz --delete public/ root@amor:/www/amorist
+rm -rf public && hugo && rsync -avz --delete public/ root@amor:/www/amorist
