@@ -10,7 +10,7 @@ description = ""
 comments = true 
 +++
 
-## 脚本
+### 脚本
 
 ```bash
 #!/bin/sh
@@ -18,7 +18,7 @@ comments = true
 rm -rf public && hugo && rsync -avz --delete public/ root@amor:/www/amorist
 ```
 
-## rsync相关命令解释
+### rsync相关命令解释
 
 
 同步文件的时候，在目标中删除源中没有的文件
