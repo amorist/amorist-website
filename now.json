@@ -1,6 +1,9 @@
 {
     "version": 2,
     "name": "amorist",
+    "alias": [
+        "amorist.io"
+    ],
     "builds": [
         {
             "src": "package.json",
