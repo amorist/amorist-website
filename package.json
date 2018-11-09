@@ -1,5 +1,6 @@
 {
     "scripts": {
+        "now-build": "hugo -d dist",
         "now-start": "hugo -d dist"
     },
     "dependencies": {
