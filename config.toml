@@ -17,7 +17,7 @@ googleAnalytics = "UA-76504285-9"
 [params]
     author = "amor"
     info = "a cute boy"
-    description = "Amor's personal website"
+    description = "amor's personal website"
     keywords = "blog,developer,personal"
     avatarurl = "https://avatars2.githubusercontent.com/u/14037268?s=460&v=4"
 
