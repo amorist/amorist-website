@@ -14,4 +14,4 @@ comments = true
 # 消息系统
 | 项目                                                      | 语言 | 简介                               | 详细介绍 |
 |---------------------------------------------------------|----|----------------------------------|------|
-| [ machinery ](https://github.com/RichardKnop/machinery) | go | Machinery是基于分布式消息传递的异步任务队列/作业队列。 | TODO |
+| [ machinery ](https://github.com/RichardKnop/machinery) | go | Machinery是基于分布式消息传递的异步任务队列。 | TODO |
