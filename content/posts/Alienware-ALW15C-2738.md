@@ -10,6 +10,9 @@ description = ""
 comments = true
 +++
 
+
+> 最后`7500`成交了。。。
+
 ## 型号：
 ALW15C-2738 游戏笔记本电脑
 
