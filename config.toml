@@ -15,7 +15,7 @@ disqusShortname = ""
 googleAnalytics = "UA-76504285-9"
 
 [params]
-    author = "amor zhang"
+    author = "amor"
     info = "a cute boy"
     description = "Amor's personal website"
     keywords = "blog,developer,personal"
