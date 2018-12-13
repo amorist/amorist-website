@@ -16,7 +16,7 @@ zsh 5.3 (x86_64-apple-darwin18.0)
 ```
 
 ```
-vim .zshrc
+amor@amor-mbp~ vim .zshrc
 ```
 
 ```
