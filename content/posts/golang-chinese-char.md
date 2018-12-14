@@ -11,7 +11,8 @@ comments = true
 +++
 
 
-通过 unicode.Is(rangeTab *unicode.RangeTable, r rune) 判断字符是否为中文。
+
+通过 `unicode.Is(rangeTab *unicode.RangeTable, r rune)` 判断字符是否为中文（判断字符 r 是否在 rangtab 范围内）。
 
 示例代码
 

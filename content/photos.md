@@ -11,7 +11,6 @@ comments = true
 ---
 
 <div  align="center">
- <img src="https://ws1.sinaimg.cn/large/d3a5dd3cgy1fx0z6u8myvj20ih0wt7r0.jpg" alt="Amor"/>
  <img src="https://ws1.sinaimg.cn/large/d3a5dd3cgy1fx0z9fky39j20sg0sg7l4.jpg" alt="Amor"/>
  <img src="https://ws1.sinaimg.cn/large/d3a5dd3cgy1fx0zb0r88ej20qo0qoqjq.jpg" alt="Amor"/>
  <img src="https://ws1.sinaimg.cn/large/d3a5dd3cgy1fx0zmct3crj20m40m4k60.jpg" alt="Amor"/>
