@@ -13,5 +13,7 @@ description = ""
 
 * gitignore-org [GitHub - gitignore-org/gitignore-org: A collection of useful .gitignore templates](https://github.com/gitignore-org/gitignore-org)
 
+* icon-generator [GitHub - amorist/icon-generator: generator macos and windows app icon](https://github.com/amorist/icon-generator)
+
 
 
