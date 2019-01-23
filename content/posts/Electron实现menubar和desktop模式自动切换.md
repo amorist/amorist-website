@@ -65,4 +65,4 @@ function getWindowPosition() {
 }
 ```
 
-本文只讲了原理和大概实现思路，实际操作的时候，可以根据具体需求编写。 这部分完整代码参考地址： https://github.com/devhubapp/devhub/pull/47/files
+本文只讲了原理和大概实现思路，实际操作的时候，可以根据具体需求编写。 这部分完整代码参考地址： https://github.com/devhubapp/devhub/pull/47/files#diff-46dc890d5fb5c79d6c9930de95b6ac47
