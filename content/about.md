@@ -8,7 +8,7 @@ comments: true
 ---
 
 1. 我叫Amor，花名底迪，双子座，颜控狗...
-2. 过去在NPI(New Product Introduction) team （NPI PE）负责Apple新产品导入(P0,EVT,DVT,PVT,MP等阶段)。目前从事软件开发，主要使用 go、nodejs,还会在工作中用一些python，member of Electron and Nodejs，node.js基金会成员。
+2. 过去在NPI(New Product Introduction) team （NPI PE）负责Apple新产品导入(P0,EVT,DVT,PVT,MP等阶段)。目前从事软件开发，主要使用 go、nodejs，还会在工作中用一些python，member of Electron and Nodejs，node.js基金会成员。
 3. 有两只傻猫，一个傻女票。没错，就我聪明🙂
 
 <div  align="center">

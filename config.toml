@@ -56,16 +56,12 @@ googleAnalytics = "UA-76504285-9"
     weight = 2
     url = "https://twitter.com/amor90s"
 [[params.social]]
-    name = "LinkedIn"
-    weight = 3
-    url = "https://www.linkedin.com/in/amor-zhang-a10127aa"
-[[params.social]]
     name = "Instagram"
-    weight = 4
+    weight = 3
     url = "https://www.instagram.com/amor.zhang"
 [[params.social]]
     name = "Patreon"
-    weight = 5
+    weight = 4
     url = "https://www.patreon.com/amorist"
 
 [[menu.main]]
