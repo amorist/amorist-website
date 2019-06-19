@@ -1,8 +1,0 @@
-{
-    "scripts": {
-        "now-build": "hugo -d dist"
-    },
-    "dependencies": {
-        "hugo-cli": "^0.9.0"
-    }
-}
