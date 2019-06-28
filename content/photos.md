@@ -13,9 +13,7 @@ comments = true
 
 
 <div  align="center"> 
- <img src="photos/DSC00788.jpg" alt="Amor"/>
- <img src="photos/IMG_1872.jpg" alt="Amor"/>
- <img src="photos/IMG_3788.jpeg" alt="Amor"/>
- <img src="photos/IMG_9171.jpg" alt="Amor"/>
- <img src="photos/IMG_9173.jpg" alt="Amor"/>
+ <img width="25%" src="https://amorist.oss-cn-shanghai.aliyuncs.com/blog/IMG_9173.jpg" alt="Amor"/>
+ <img width="25%" src="https://amorist.oss-cn-shanghai.aliyuncs.com/blog/IMG_3788.jpeg" alt="Amor"/>
+ <img width="25%" src="https://amorist.oss-cn-shanghai.aliyuncs.com/blog/IMG_9171.jpg" alt="Amor"/>
 </div>
