@@ -30,7 +30,7 @@ comments = true
 </style>
 
 <div class="grid-container">
-  <div class="grid-item"> <img src="https://amorist.oss-cn-shanghai.aliyuncs.com/blog/IMG_9173.jpg" alt="Amor"/></div>
-  <div class="grid-item"> <img src="https://amorist.oss-cn-shanghai.aliyuncs.com/blog/IMG_3788.jpeg" alt="Amor"/></div>
-  <div class="grid-item"> <img src="https://amorist.oss-cn-shanghai.aliyuncs.com/blog/IMG_9171.jpg" alt="Amor"/></div>
+  <div class="grid-item"> <img height="280px" src="https://amorist.oss-cn-shanghai.aliyuncs.com/blog/IMG_9173.jpg" alt="Amor"/></div>
+  <div class="grid-item"> <img height="280px" src="https://amorist.oss-cn-shanghai.aliyuncs.com/blog/IMG_3788.jpeg" alt="Amor"/></div>
+  <div class="grid-item"> <img height="280px" src="https://amorist.oss-cn-shanghai.aliyuncs.com/blog/IMG_9171.jpg" alt="Amor"/></div>
 </div>
