@@ -41,4 +41,10 @@ comments = true
   <div class="grid-item">
   <img weight="280px" src="https://amorist.oss-cn-shanghai.aliyuncs.com/blog/ORG_DSC03388.jpg" alt="Amor"/>
   </div>
+  <div class="grid-item">
+  <img weight="280px" src="https://amorist.oss-cn-shanghai.aliyuncs.com/blog/IMG_3794.JPG" alt="Amor"/>
+  </div>
+  <div class="grid-item">
+  <img weight="280px" src="https://amorist.oss-cn-shanghai.aliyuncs.com/blog/IMG_3815.JPG" alt="Amor"/>
+  </div>
 </div>
