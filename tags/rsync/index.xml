@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>rsync on Amor</title><link>https://amorist.io/tags/rsync/</link><description>Recent content in rsync on Amor</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 08 Nov 2018 11:56:26 +0800</lastBuildDate><atom:link href="https://amorist.io/tags/rsync/index.xml" rel="self" type="application/rss+xml"/><item><title>使用rsync部署hugo</title><link>https://amorist.io/posts/deploy-my-hugo-blog/</link><pubDate>Thu, 08 Nov 2018 11:56:26 +0800</pubDate><guid>https://amorist.io/posts/deploy-my-hugo-blog/</guid><description>脚本 #!/bin/sh rm -rf public &amp;amp;&amp;amp; hugo &amp;amp;&amp;amp; rsync -avz --delete public/ root@amor:/www/amorist rsync相关命令解释 同步文件的时候，在目标中删除源中没有的文件👇
+--delete 归档模式，表示以递归方式传输文件，并保持所有文件属性👇
+-a, --archive archive mode; same as -rlptgoD (no -H) 详细模式输出👇
+-v, --verbose increase verbosity 传输时进行压缩处理👇
+-z, --compress compress file data during the transfer --compress-level=NUM explicitly set compression level 源文件目录👇
+public/ 目标文件目录👇</description></item></channel></rss>

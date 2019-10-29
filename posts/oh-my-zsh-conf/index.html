@@ -1,0 +1,111 @@
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=author content="amor"><meta name=description content="https://amorist.io/"><meta name=keywords content="blog,developer,personal"><meta property="og:site_name" content="Amor"><meta property="og:title" content="oh my zsh config - Amor"><meta property="og:description" content="oh my zsh config"><meta property="og:type" content="website"><meta property="og:url" content="https://amorist.io/posts/oh-my-zsh-conf/"><meta property="og:image" content="https://amorist.io/&lt;no value&gt;"><meta name=twitter:card content="summary"><meta name=twitter:site content="https://amorist.io/posts/oh-my-zsh-conf/"><meta name=twitter:image content="https://amorist.io/&lt;no value&gt;"><base href=https://amorist.io/><title>oh my zsh config - Amor</title><link rel=canonical href=https://amorist.io/posts/oh-my-zsh-conf/><link rel=stylesheet href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700"><link rel=stylesheet href=//cdn.rawgit.com/necolas/normalize.css/master/normalize.css><link rel=stylesheet href=https://amorist.io/css/style.min.css><link rel=icon type=image/png href=https://amorist.io/images/favicon-32x32.png sizes=32x32><link rel=icon type=image/png href=https://amorist.io/images/favicon-16x16.png sizes=16x16><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css><script src=https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js></script><meta name=generator content="Hugo 0.59.0"></head><body><main class=wrapper><nav class=navigation><section class=container><a class=navigation-title href=/>Amor</a>
+<input type=checkbox id=menu-control>
+<label class="menu-mobile float-right" for=menu-control><span class="btn-mobile float-right">&#9776;</span><ul class=navigation-list><li class="navigation-item align-center"><a class=navigation-link href=https://amorist.io/posts>Blog</a></li><li class="navigation-item align-center"><a class=navigation-link href=https://amorist.io/photos>Photos</a></li><li class="navigation-item align-center"><a class=navigation-link href=https://amorist.io/project>Project</a></li><li class="navigation-item align-center"><a class=navigation-link href=https://amorist.io/about>About</a></li></ul></label></section></nav><div class=content><section class="container post"><article><header><h1 class=title>oh my zsh config</h1><h2 class=date>November 5, 2018</h2></header><div class=highlight><pre class=chroma><code class=language-bash data-lang=bash><span class=c1># If you come from bash you might have to change your $PATH.</span>
+<span class=c1># export PATH=$HOME/bin:/usr/local/bin:$PATH</span>
+
+<span class=c1># Path to your oh-my-zsh installation.</span>
+<span class=nb>export</span> <span class=nv>ZSH</span><span class=o>=</span><span class=s2>&#34;/Users/amor/.oh-my-zsh&#34;</span>
+
+<span class=c1># Set name of the theme to load --- if set to &#34;random&#34;, it will</span>
+<span class=c1># load a random theme each time oh-my-zsh is loaded, in which case,</span>
+<span class=c1># to know which specific one was loaded, run: echo $RANDOM_THEME</span>
+<span class=c1># See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes</span>
+<span class=nv>ZSH_THEME</span><span class=o>=</span><span class=s2>&#34;agnoster&#34;</span>
+
+<span class=c1># Set list of themes to pick from when loading at random</span>
+<span class=c1># Setting this variable when ZSH_THEME=random will cause zsh to load</span>
+<span class=c1># a theme from this variable instead of looking in ~/.oh-my-zsh/themes/</span>
+<span class=c1># If set to an empty array, this variable will have no effect.</span>
+<span class=c1># ZSH_THEME_RANDOM_CANDIDATES=( &#34;robbyrussell&#34; &#34;agnoster&#34; )</span>
+
+<span class=c1># Uncomment the following line to use case-sensitive completion.</span>
+<span class=c1># CASE_SENSITIVE=&#34;true&#34;</span>
+
+<span class=c1># Uncomment the following line to use hyphen-insensitive completion.</span>
+<span class=c1># Case-sensitive completion must be off. _ and - will be interchangeable.</span>
+<span class=c1># HYPHEN_INSENSITIVE=&#34;true&#34;</span>
+
+<span class=c1># Uncomment the following line to disable bi-weekly auto-update checks.</span>
+<span class=c1># DISABLE_AUTO_UPDATE=&#34;true&#34;</span>
+
+<span class=c1># Uncomment the following line to change how often to auto-update (in days).</span>
+<span class=nb>export</span> <span class=nv>UPDATE_ZSH_DAYS</span><span class=o>=</span><span class=m>3</span>
+
+<span class=c1># Uncomment the following line to disable colors in ls.</span>
+<span class=c1># DISABLE_LS_COLORS=&#34;true&#34;</span>
+
+<span class=c1># Uncomment the following line to disable auto-setting terminal title.</span>
+<span class=c1># DISABLE_AUTO_TITLE=&#34;true&#34;</span>
+
+<span class=c1># Uncomment the following line to enable command auto-correction.</span>
+<span class=nv>ENABLE_CORRECTION</span><span class=o>=</span><span class=s2>&#34;true&#34;</span>
+
+<span class=c1># Uncomment the following line to display red dots whilst waiting for completion.</span>
+<span class=c1># COMPLETION_WAITING_DOTS=&#34;true&#34;</span>
+
+<span class=c1># Uncomment the following line if you want to disable marking untracked files</span>
+<span class=c1># under VCS as dirty. This makes repository status check for large repositories</span>
+<span class=c1># much, much faster.</span>
+<span class=c1># DISABLE_UNTRACKED_FILES_DIRTY=&#34;true&#34;</span>
+
+<span class=c1># Uncomment the following line if you want to change the command execution time</span>
+<span class=c1># stamp shown in the history command output.</span>
+<span class=c1># You can set one of the optional three formats:</span>
+<span class=c1># &#34;mm/dd/yyyy&#34;|&#34;dd.mm.yyyy&#34;|&#34;yyyy-mm-dd&#34;</span>
+<span class=c1># or set a custom format using the strftime function format specifications,</span>
+<span class=c1># see &#39;man strftime&#39; for details.</span>
+<span class=c1># HIST_STAMPS=&#34;mm/dd/yyyy&#34;</span>
+
+<span class=c1># Would you like to use another custom folder than $ZSH/custom?</span>
+<span class=c1># ZSH_CUSTOM=/path/to/new-custom-folder</span>
+
+<span class=c1># Which plugins would you like to load?</span>
+<span class=c1># Standard plugins can be found in ~/.oh-my-zsh/plugins/*</span>
+<span class=c1># Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/</span>
+<span class=c1># Example format: plugins=(rails git textmate ruby lighthouse)</span>
+<span class=c1># Add wisely, as too many plugins slow down shell startup.</span>
+<span class=nv>plugins</span><span class=o>=(</span>git z vscode osx sudo<span class=o>)</span>
+
+<span class=nb>source</span> <span class=nv>$ZSH</span>/oh-my-zsh.sh
+
+<span class=c1># User configuration</span>
+
+<span class=c1># export MANPATH=&#34;/usr/local/man:$MANPATH&#34;</span>
+
+<span class=c1># You may need to manually set your language environment</span>
+<span class=c1># export LANG=en_US.UTF-8</span>
+<span class=nb>export</span> <span class=nv>LC_ALL</span><span class=o>=</span>en_US.UTF-8 
+<span class=nb>export</span> <span class=nv>LANG</span><span class=o>=</span>en_US.UTF-8
+
+<span class=c1># Preferred editor for local and remote sessions</span>
+<span class=c1># if [[ -n $SSH_CONNECTION ]]; then</span>
+<span class=c1>#   export EDITOR=&#39;vim&#39;</span>
+<span class=c1># else</span>
+<span class=c1>#   export EDITOR=&#39;mvim&#39;</span>
+<span class=c1># fi</span>
+
+<span class=c1># Compilation flags</span>
+<span class=c1># export ARCHFLAGS=&#34;-arch x86_64&#34;</span>
+
+<span class=c1># ssh</span>
+<span class=nb>export</span> <span class=nv>SSH_KEY_PATH</span><span class=o>=</span><span class=s2>&#34;~/.ssh/rsa_id&#34;</span>
+
+<span class=c1># Set personal aliases, overriding those provided by oh-my-zsh libs,</span>
+<span class=c1># plugins, and themes. Aliases can be placed here, though oh-my-zsh</span>
+<span class=c1># users are encouraged to define aliases within the ZSH_CUSTOM folder.</span>
+<span class=c1># For a full list of active aliases, run `alias`.</span>
+#
+<span class=c1># Example aliases</span>
+<span class=nb>alias</span> <span class=nv>zshconfig</span><span class=o>=</span><span class=s2>&#34;code ~/.zshrc&#34;</span>
+<span class=nb>alias</span> <span class=nv>ohmyzsh</span><span class=o>=</span><span class=s2>&#34;code ~/.oh-my-zsh&#34;</span>
+<span class=nb>alias</span> <span class=nv>ip</span><span class=o>=</span><span class=s2>&#34;curl -i http://ip.taobao.com/service/getIpInfo.php\?ip\=myip&#34;</span>
+<span class=nb>alias</span> <span class=nv>setproxy</span><span class=o>=</span><span class=s2>&#34;export http_proxy=http://127.0.0.1:1080 &amp;&amp; export https_proxy=http://127.0.0.1:1080 &amp;&amp; ip&#34;</span>
+<span class=nb>alias</span> <span class=nv>unsetproxy</span><span class=o>=</span><span class=s2>&#34;unset http_proxy &amp;&amp; unset https_proxy &amp;&amp; ip&#34;</span>
+
+<span class=c1># added by travis gem</span>
+<span class=o>[</span> -f /Users/amor/.travis/travis.sh <span class=o>]</span> <span class=o>&amp;&amp;</span> <span class=nb>source</span> /Users/amor/.travis/travis.sh
+
+<span class=nb>export</span> <span class=nv>GOPATH</span><span class=o>=</span><span class=s2>&#34;/Users/amor/go&#34;</span>
+<span class=nb>export</span> <span class=nv>ELECTRON_MIRROR</span><span class=o>=</span><span class=s2>&#34;https://npm.taobao.org/mirrors/electron/&#34;</span>
+<span class=nb>export</span> <span class=nv>PATH</span><span class=o>=</span><span class=s2>&#34;/usr/local/opt/python@2/libexec/bin:</span><span class=nv>$PATH</span><span class=s2>:</span><span class=nv>$GOPATH</span><span class=s2>/bin&#34;</span></code></pre></div></article><div id=gitalk-container></div><br></section></div></main><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');ga('create','UA-76504285-9','auto');ga('send','pageview');}</script><script src=https://amorist.io/js/app.js></script><script>var gitalk=new Gitalk({clientID:'ba080f7cb1a46e7901fe',clientSecret:'990d1b1576febce451a89414d30a15e555f89621',repo:'amorist',owner:'amorist',admin:'amorist',id:'oh my zsh config',distractionFreeMode:'false',})
+gitalk.render('gitalk-container')</script></body></html>
