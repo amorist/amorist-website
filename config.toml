@@ -60,7 +60,7 @@ googleAnalytics = "UA-76504285-9"
     weight = 3
     url = "https://www.instagram.com/amor.zhang"
 [[params.social]]
-    name = "Github Sponsors"
+    name = "Sponsors"
     weight = 4
     url = "https://github.com/sponsors/amorist"
 
