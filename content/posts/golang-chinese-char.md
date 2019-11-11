@@ -17,7 +17,7 @@ comments = true
 示例代码
 
 ```go
-	str := "底迪最可爱"
+	str := "底迪最可爱"s
 	for _, r := range str {
 		if unicode.Is(unicode.Han, r) {
 			fmt.Print(string(r))
