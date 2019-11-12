@@ -20,13 +20,13 @@
   });
 })(jQuery);
 // animating-urls http://matthewrayfield.com/articles/animating-urls-with-javascript-and-emojis/
-function animatingUrl() {
-    var i, n, s = '';
-    for (i = 0; i < 10; i++) {
-        n = Math.floor(Math.sin((Date.now()/200) + (i/2)) * 4) + 4;
-        s += String.fromCharCode(0x2581 + n);
-    }
-    window.location.hash = s;
-    setTimeout(animatingUrl, 50);
-}
-animatingUrl();
+// function animatingUrl() {
+//     var i, n, s = '';
+//     for (i = 0; i < 10; i++) {
+//         n = Math.floor(Math.sin((Date.now()/200) + (i/2)) * 4) + 4;
+//         s += String.fromCharCode(0x2581 + n);
+//     }
+//     window.location.hash = s;
+//     setTimeout(animatingUrl, 50);
+// }
+// animatingUrl();
