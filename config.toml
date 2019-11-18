@@ -80,3 +80,7 @@ googleAnalytics = "UA-76504285-9"
     name = "About"
     weight = 4
     url = "about"
+[[menu.main]]
+    name = "Thanks"
+    weight = 5
+    url = "thanks"
